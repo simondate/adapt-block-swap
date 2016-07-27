@@ -24,8 +24,9 @@
           "properties": {
             "_blockSwap": {
               "type": "boolean",
+              "legend": "Block swap",
               "required": true,
-              "title": "Block swap allows the swapping of layouts of components within a block.",
+              "title": "Set to true to swap the layouts of components within a block",
               "inputType": {
                 "type": "Boolean",
                 "options": [
@@ -33,7 +34,7 @@
                   true
                 ]
               },
-              "help": "Enable Block Swap for this block."
+              "help": "Enable Block Swap for this block"
             }
           }
         },

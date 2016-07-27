@@ -1,6 +1,6 @@
 {
   "name": "blockSwap",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "homepage": "https://github.com/simondate/adapt-block-swap",
   "issues": "https://github.com/simondate/adapt-block-swap/issues",
   "displayName" : "Block swap",
@@ -12,5 +12,5 @@
     "adapt-extension"
   ],
   "license": "GPLv3",
-  "targetAttribute": "_extension"
+  "targetAttribute": "_blockSwap"
 }
