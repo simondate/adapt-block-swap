@@ -1,11 +1,11 @@
 {
   "name": "blockSwap",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "homepage": "https://github.com/simondate/adapt-block-swap",
   "issues": "https://github.com/simondate/adapt-block-swap/issues",
   "displayName" : "Block swap",
   "extension" : "extension",
-  "description": "An extension that allows for two components in a block to be swapped around on mobile view.",
+  "description": "An extension that allows for the layout of two components within a block to be swapped on mobile view.",
   "main": "/js/adapt-block-swap.js",
   "keywords": [
     "adapt-plugin",
