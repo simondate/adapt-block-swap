@@ -16,8 +16,6 @@ define([ "coreJS/adapt" ], function(Adapt) {
     function loopBlocks(context)  {
         for(var i = 0; i < context.blocks.length; i++){
             var block = context.blocks.models[i];
-            console.log("before");
-            console.log(block);
             if(typeof block.attributes._blockSwap !== 'undefined' && block.attributes._children.length >= 2){
                 checkMobileView(block);
             }
@@ -27,11 +25,8 @@ define([ "coreJS/adapt" ], function(Adapt) {
     function checkMobileView(block){
         console.log(block.attributes._id);
         if($('html').is('.size-medium') || $('html').is('.size-small')){
-            console.log("mobile");
             block.attributes._children.models[0].attributes._layout = "right";
             block.attributes._children.models[1].attributes._layout = "left";
-            console.log("after");
-             console.log(block);
         }
     }
 
